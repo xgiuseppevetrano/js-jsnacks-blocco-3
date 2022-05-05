@@ -12,4 +12,6 @@ do {
     total += askNumber;
     // 5. FINTANTO CHE la somma dei numeri contenuti nell'array è minore di 50
     //    ALLORA continuo a chiedere un numero all'utente
-} while (total <= 50);
+} while (total < 50)
+
+console.log(genericNumber);
