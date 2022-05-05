@@ -28,3 +28,18 @@ for (let i = 0; i < Math.floor(Math.random() * 30) + 10; i++) {
         divTwo.innerText += ` ${number[i]}`;
     }
 }
+
+// SAREBBE MEGLIO FARLO COSI'
+// 3. Creo un array con una quantità casuale di numeri tra 10 e 30
+// for (let i = 0; i < Math.floor(Math.random() * 30) + 10; i++) {
+//     4. All'interno dell'array metto dei numeri casuali tra 1 e 100
+//     const number = Math.floor(Math.random() * 100) + 1;
+//
+//     if (number % 2 === 1) {
+//         5. Stampo nel div con id rosso i numeri dispari
+//         divOne.innerText += ` ${number}`;
+//     } else {
+//         6. Stampo nel div con id verde i numeri pari
+//         divTwo.innerText += ` ${number}`;
+//     }
+// }
