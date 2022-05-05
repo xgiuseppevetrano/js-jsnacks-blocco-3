@@ -5,6 +5,14 @@
 const N = Number(prompt("Inserisci un numero"));
 
 // 2. Creo tanti array quanto è N
-//    Ogni array è formato da 10 numeri casuali tra 1 e 100
-
-// 3. Ogni array creato viene stampato in console
+for (let i = 0; i < N; i++) {
+    const number = [];
+    // 3. Ogni array è formato da 10 numeri casuali tra 1 e 100
+    // Ogni array formato da 10 elementi
+    for (let y = 0; y < 10; y++) {
+        // Ogni elemento è un numero casuale tra 1 e 100
+        number.push(Math.floor(Math.random() * 100) + 1);
+    }
+    // 3. Ogni array creato viene stampato in console
+    console.log(number);
+}
